@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: aileron;
+  src: url(/Frontend/public/aileron_0102.zip);
+}
+
+
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
